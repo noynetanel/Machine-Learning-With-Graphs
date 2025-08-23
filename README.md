@@ -14,4 +14,4 @@ Each dataset folder contains:
 To organize our work, each dataset is split into three main Kaggle notebooks:  
 1. `baseline-bfs` – baseline model and BFS positional encoding  
 2. `bfs-k-roots` – experiments with multiple BFS roots (k-roots)  
-3. `learnable-layerwise-sinusoidal-bfs` – experiments with learnable, layerwise, and sinusoidal BFS encodings  
+3. `learnable-layerwise-sinusoidal-bfs` – experiments with learnable BFS, layerwise injection, sinusoidal encodings, and centrality-based features  
