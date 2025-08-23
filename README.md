@@ -8,11 +8,10 @@ The project investigates traversal-based positional encodings for Graph Neural N
 
 For each dataset used in our experiments (**PROTEINS, NCI1, ENZYMES, REDDIT-BINARY, IMDB-BINARY, DD**), we created a dedicated folder.  
 Each dataset folder contains:  
-- **Jupyter notebooks** with the Kaggle runs  
-- **Excel files** summarizing the results  
+- **Kaggle notebooks (`.ipynb`)** with the experiments we ran  
+- **Excel files** summarizing the evaluation results  
 
-To make collaboration easier, we split the experiments for each dataset into three main notebooks:  
+To organize our work, each dataset is split into three main Kaggle notebooks:  
 1. `baseline-bfs` – baseline model and BFS positional encoding  
 2. `bfs-k-roots` – experiments with multiple BFS roots (k-roots)  
 3. `learnable-layerwise-sinusoidal-bfs` – experiments with learnable, layerwise, and sinusoidal BFS encodings  
-
