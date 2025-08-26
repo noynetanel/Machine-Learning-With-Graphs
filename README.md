@@ -6,7 +6,7 @@ The project investigates traversal-based positional encodings for Graph Neural N
 
 ## Repository Structure
 
-For each dataset used in our experiments (**PROTEINS, NCI1, ENZYMES, REDDIT-BINARY, IMDB-BINARY, DD**), we created a dedicated folder.  
+For each dataset used in our experiments (**PROTEINS, NCI1, ENZYMES, IMDB-BINARY, DD**), we created a dedicated folder.  
 Each dataset folder contains:  
 - **Kaggle notebooks (`.ipynb`)** with the experiments we ran  
 - **Excel files** summarizing the evaluation results  
